@@ -1,12 +1,45 @@
-
-/* Classi riutilizzabili Main-Footer */
-
-.section-basic{
-
+.immagine{
+   background-image: url("../img/jumbo-bg.png");
+   background-position: center center;
+   background-size:cover;
+}
+.immagine-second{
+    background-color: black;
+    min-height: 100px;
+    background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
+    background-position: center center;
+    background-size:cover;
 }
 
-.section-medium{
 
+.second-section-style{
+    padding-top: 40px ;
+    padding-bottom: 100px;
+}
+.list-img-mystyle {
+ width: 100%;
+ padding-bottom: 10px;
+}
+
+
+
+.prodouct-size-style{
+    width: 80%;
+}
+/* Classi riutilizzabili Main-Footer */
+.first-section-style{
+    padding-top: 250px ;
+    padding-bottom: 100px;
+}
+
+
+/* 
+.section-medium{
+    padding: 60 0;
+} */
+
+.big-title-style{
+    padding-bottom: 12px;
 }
 
 .section-large{
