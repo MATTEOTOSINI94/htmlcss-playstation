@@ -12,28 +12,26 @@
 }
 
 
-.second-section-style{
-    padding-top: 40px ;
-    padding-bottom: 100px;
-}
+
 .list-img-mystyle {
  width: 100%;
  border-radius: 30px;
 }
 
-
-
 .prodouct-size-style{
     width: 80%;
     opacity: 0.5;
 }
-/* Classi riutilizzabili Main-Footer */
-.first-section-style{
-    padding-top: 250px ;
-    padding-bottom: 100px;
+
+
+.second-section-style{
+    padding-top: 50px ;
+    padding-bottom: 50px;
 }
 
-
+.first-section-style{
+    padding-top: 250px ;   
+}
 
 .section-medium, .list-img-mystyle {
     padding-bottom: 20px;
@@ -44,26 +42,16 @@
     padding-bottom: 12px;
 }
 
-.section-large{
-
-}
-
-.section-super{
-
-}
-
-.section-title{
-
-}
-
 .section-subtitle{
-
+    padding-bottom: 12px;
 }
 
-.section-text{
-
+.section-multiple{
+    padding-top: 35px;
+    padding-bottom: 35px;
 }
 
-.section-title-small{
-
+.section-ps-plus{
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
