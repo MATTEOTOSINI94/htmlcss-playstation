@@ -17,6 +17,7 @@ nav{
     top: 0%;
     right: 0;
     left: 0;
+    z-index: 5;
 }
 
 .my-navbar{
@@ -155,4 +156,39 @@ h5{
 .my-box-card:hover{
     position:relative;
     bottom: 10px;
+
+    
+}
+
+.my-box{
+    position: relative;
+    
+}
+
+.line-under::after {
+    content: "";
+    position: absolute;
+    right: 50%;
+    transform: translateX(50%);
+    background: #0072ce;
+    border: 1.5px solid #0072ce;
+    border-radius: 10px;
+    width: 70%;
+}
+
+
+.lines-box:hover::after{
+    content: "";
+    position: absolute;
+    right: 50%;
+    transform: translateX(50%);
+    background: #0072ce;
+    border: 1.5px solid #0072ce;
+    border-radius: 10px;
+    width: 70%;
+
+}
+
+.prodouct-size-style:hover{
+    opacity: 1.0;
 }
