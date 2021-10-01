@@ -12,10 +12,15 @@
 }
 
 
-.list-img-mystyle {
+.img-mystyle-content {
  width: 100%;
  
 }
+.img-pad-stye{
+    padding: 10px 0;
+}
+
+
 
 .prodouct-size-style{
     width: 80%;
@@ -32,10 +37,12 @@
     padding-top: 250px ;   
 }
 
-.section-medium, .list-img-mystyle {
+.section-medium{
     padding-bottom: 20px;
     padding-top: 20px;
 }
+
+
 
 .big-title-style{
     padding-bottom: 12px;
@@ -100,7 +107,7 @@ h5{
 
 .brd-style{
     border-radius: 55px;
-    border-radius: 55px;
+   
    
 }
 .box-style-brd{
@@ -110,6 +117,13 @@ h5{
     border: 2px solid blue;
    padding: 4px ;
 }
-.lines-style-box{
-    padding-top: 16px;
+
+
+.luna-sole img{
+    transition: 2s ;
+}
+
+.luna-sole img:hover{
+    margin-top: -20px;
+
 }
