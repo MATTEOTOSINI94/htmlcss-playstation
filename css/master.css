@@ -63,4 +63,12 @@ footer ul li{
     list-style: none;
 }
 
+.style-subtitle{
+    color: rgb(160, 160, 160);
+}
+
+.btn-style-my{
+    border-radius: 40px;
+}
+
 
