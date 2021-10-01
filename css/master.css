@@ -1,7 +1,8 @@
-.immagine{
+.bg-section{
    background-image: url("../img/jumbo-bg.png");
    background-position: center center;
    background-size:cover;
+   margin-top: 78px;
 }
 .immagine-second{
     background-color: black;
@@ -9,6 +10,32 @@
     background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
     background-position: center center;
     background-size:cover;
+}
+
+nav{
+    position: fixed;
+    top: 0%;
+    right: 0;
+    left: 0;
+}
+
+.my-navbar{
+    background-color: white;
+    color: black;
+}
+
+.myclass-pad li {
+    padding-right: 15px;
+}
+
+nav .container-fluid ul li a:hover{
+    color: blue;
+}
+
+
+
+.style-icon-list{
+    width: 10px;
 }
 
 
@@ -119,11 +146,13 @@ h5{
 }
 
 
-.luna-sole img{
-    transition: 2s ;
+.my-box-card{
+   
+    transition: 5s ease-in-out;
 }
 
-.luna-sole img:hover{
-    margin-top: -20px;
 
+.my-box-card:hover{
+    position:relative;
+    bottom: 10px;
 }
