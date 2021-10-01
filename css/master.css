@@ -15,7 +15,7 @@
 
 .list-img-mystyle {
  width: 100%;
- border-radius: 30px;
+ 
 }
 
 .prodouct-size-style{
@@ -54,4 +54,8 @@
 .section-ps-plus{
     padding-top: 50px;
     padding-bottom: 50px;
+}
+
+.sublogo-style{
+    padding-top: 20px;
 }
