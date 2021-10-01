@@ -12,7 +12,6 @@
 }
 
 
-
 .list-img-mystyle {
  width: 100%;
  
@@ -59,3 +58,9 @@
 .sublogo-style{
     padding-top: 20px;
 }
+
+footer ul li{
+    list-style: none;
+}
+
+
