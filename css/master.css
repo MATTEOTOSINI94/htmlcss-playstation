@@ -64,7 +64,7 @@ footer ul li{
 }
 
 .style-subtitle{
-    color: rgb(160, 160, 160);
+    color: #727272
 }
 
 .btn-style-my{
@@ -84,5 +84,32 @@ h4{
 h5{
     font-size: 0.9rem;
 }
+.button-color-psnow{
+    background-color: #F5F5F5;
+    color: black;
+}
+.btn-psplus{
+    background-color: #D9DADC;
+    color: #2D64E6;
+    border: none;
+}
 
+.btn-danger{
+    background-color: #CD3D0F;
+}
 
+.brd-style{
+    border-radius: 55px;
+    border-radius: 55px;
+   
+}
+.box-style-brd{
+    border:1px solid blue
+}
+.lines-style{
+    border: 2px solid blue;
+   padding: 4px ;
+}
+.lines-style-box{
+    padding-top: 16px;
+}
