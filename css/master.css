@@ -26,11 +26,16 @@ nav{
 
 .my-navbar{
     background-color: white;
+    position: relative;
    
 }
 
 .myclass-pad li {
     padding-right: 15px;
+}
+
+.myclass-pad li a{
+    color: black;
 }
 
 nav .container-fluid ul li a:hover{
@@ -153,13 +158,12 @@ h5{
 
 .my-box-card{
     position: relative;
-   
-    transition: 5s ease-in-out;
+    bottom: 0;
+    transition: 0.7s;
 }
 
 
 .my-box-card:hover{
-    position:relative;
     bottom: 10px;
 
     
@@ -197,3 +201,50 @@ h5{
 .prodouct-size-style:hover{
     opacity: 1.0;
 }
+
+
+/* Prove-submenu */
+.try-menu{
+    opacity: 0;
+    display: none;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    right: 0;
+    background-color: white;
+   
+   
+ 
+}
+
+
+ul .active-submenu:focus .try-menu{
+    opacity: 1;
+    display: block;
+    margin: 0;
+    transition: all 2s;
+}
+
+
+.sub-class-ps5{
+    border-top: 1px dotted black;
+    border-bottom: 1px dotted black;
+}
+
+.img-subnav{
+    width: 100px;
+
+}
+
+.arrowdown{
+    transition: 1s;
+}
+
+ul .active-submenu:focus .arrowdown{
+    transform: rotateX(180deg)
+}
+
+a{
+  cursor: pointer;
+}
+
