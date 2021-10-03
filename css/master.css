@@ -212,9 +212,6 @@ h5{
     left: 0;
     right: 0;
     background-color: white;
-   
-   
- 
 }
 
 
@@ -222,7 +219,7 @@ ul .active-submenu:focus .try-menu{
     opacity: 1;
     display: block;
     margin: 0;
-    transition: all 2s;
+    
 }
 
 
