@@ -258,10 +258,6 @@ ul .active-submenu a:focus .arrowdown{
     transform: rotateX(180deg)
 }
 
-/* a{
-  cursor: pointer;
-} */
-
 .btn-menu{
     position: relative;
 }
@@ -301,4 +297,36 @@ ul .active-submenu a:focus .arrowdown{
     background-color: rgba(163, 163, 163, 0.747);
     color: white;
     border: 1px dotted rgb(0, 0, 0);
+}
+
+.box-overlay{
+    position: relative;
+}
+
+.overlay{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #f2f0f8a9;
+    overflow: hidden;
+    width: 0%;
+    height: 100%;
+    transition: 2s ease;
+    border-radius: 30px;
+
+}
+
+.box-overlay:hover .overlay{
+    width: 100%;
+}
+
+.price-overlay{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50% );
+    color: blue;
+    font-weight: bold;
 }
