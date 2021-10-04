@@ -262,3 +262,43 @@ ul .active-submenu a:focus .arrowdown{
   cursor: pointer;
 } */
 
+.btn-menu{
+    position: relative;
+}
+.btn-submenu{
+    position: absolute;
+    top: 44px;
+    right: 0;
+    background-color: rgb(255, 255, 255);
+   
+    overflow: hidden;
+    transition: opacity 1s ease;
+    opacity: 0;
+    height: 0;
+}
+
+.btn-menu:focus .btn-submenu{
+    height:auto;
+    opacity: 1;
+}
+
+.btn-sub-menustyle{
+    padding-left: 0;
+    margin: 0;
+    transition: 2s;
+}
+
+.btn-sub-menustyle li{
+    list-style: none;
+    border: 1px solid grey;
+    padding: 10px 30px ;
+    color: black;
+    transition: 0.5s;
+
+}
+
+.btn-sub-menustyle li:hover{
+    background-color: rgba(163, 163, 163, 0.747);
+    color: white;
+    border: 1px dotted rgb(0, 0, 0);
+}
